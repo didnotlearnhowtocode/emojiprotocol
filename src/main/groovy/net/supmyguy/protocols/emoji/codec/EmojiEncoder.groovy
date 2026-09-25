@@ -1,6 +1,6 @@
-package net.supmyguy.protocols.codec
+package net.supmyguy.protocols.emoji.codec
 
-import net.supmyguy.protocols.domain.alphabet.EmojiAlphabet
+import net.supmyguy.protocols.emoji.domain.alphabet.EmojiAlphabet
 
 import java.nio.charset.StandardCharsets
 
