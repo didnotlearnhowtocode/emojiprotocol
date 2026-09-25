@@ -16,7 +16,6 @@ class EmojiDecoder {
             String bits = reducedEmojiBitsSequence.substring(leftmost, rightmost)
             return "${(char) Integer.parseInt(bits, 2)}"
         }.join("")
-        println("Decoded message: $decoded")
-        return ""
+        return decoded
     }
 }
